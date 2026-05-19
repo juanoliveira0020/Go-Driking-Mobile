@@ -1,18 +1,21 @@
 {
   "expo": {
     "name": "Go Driking",
-
-    "notification": {
-      "icon": "./assets/icon.png",
-      "color": "#8B5CF6"
-    },
     "slug": "go-driking",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "scheme": "godriking",
+    "android": {
+      "package": "com.juan_oliveira.godriking"
+    },
     "plugins": [
-      "expo-notifications",
-      "@react-native-community/datetimepicker"
-    ]
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f8736d25-f7f7-4ba8-92b9-cb0449277830"
+      }
+    }
   }
 }
