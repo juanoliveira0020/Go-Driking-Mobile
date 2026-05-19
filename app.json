@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Go Driking",
+
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#8B5CF6"
+    },
+    "slug": "go-driking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-notifications",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}

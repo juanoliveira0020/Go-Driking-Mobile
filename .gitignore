@@ -1,0 +1,51 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# native
+*.keystore
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+
+# logs
+*.log
+
+# local env files
+.env
+.env.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Android
+android/
+
+# iOS
+ios/
+
+# EAS
+eas-build/
+
+# vscode
+.vscode/
+
+# temporary
+tmp/
+temp/
+
+# generated
+coverage/
