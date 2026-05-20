@@ -1,17 +1,42 @@
 {
   "expo": {
     "name": "Go Driking",
+
     "slug": "go-driking",
+
     "version": "1.0.0",
+
     "orientation": "portrait",
+
     "userInterfaceStyle": "dark",
+
     "scheme": "godriking",
-    "android": {
-      "package": "com.juan_oliveira.godriking"
+
+    "icon": "./assets/icon.png",
+
+    "splash": {
+      "image": "./assets/icon.png",
+
+      "resizeMode": "contain",
+
+      "backgroundColor": "#0F0718"
     },
+
+    "android": {
+
+      "package": "com.juan_oliveira.godriking",
+
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+
+        "backgroundColor": "#0F0718"
+      }
+    },
+
     "plugins": [
       "expo-notifications"
     ],
+
     "extra": {
       "eas": {
         "projectId": "f8736d25-f7f7-4ba8-92b9-cb0449277830"
